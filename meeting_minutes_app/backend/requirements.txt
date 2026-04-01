@@ -1,0 +1,25 @@
+# Backend Requirements
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+
+# AI/ML
+torch>=2.0.0
+transformers>=4.36.0
+accelerate>=0.25.0
+
+# Audio Processing
+soundfile>=0.12.1
+numpy>=1.24.0
+pydub>=0.25.1
+
+# Optional: Performance
+liger-kernel>=0.1.0  # For optimized kernels
+flash-attn>=2.4.0    # Flash Attention (CUDA required)
+
+# Optional: vLLM acceleration
+# vllm>=0.2.0
+
+# Utilities
+python-dotenv>=1.0.0
