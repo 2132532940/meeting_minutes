@@ -1,51 +1,58 @@
-```
-# Dependencies
-node_modules/
-venv/
-.venv/
+# Examples 1:
+(empty)
+
+# Example 2 (Project with artifacts):
+# Compiled and build artifacts
+*.pyc
 __pycache__/
-*.egg-info/
+*.o
+*.obj
 dist/
 build/
 target/
-
-# Python
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
+# Dependencies
 .venv/
 venv/
-ENV/
-.ENV/
-
-# Logs
+node_modules/
+.julia/
+zig*/
+# Logs and temp files
 *.log
-
-# Environment variables
+*.tmp
+*.swp
+# Environment
 .env
 .env.local
 .env.*
-!.env.example
-
-# IDE
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-.coverage
+.mypy_cache/
+.pytest_cache/
 coverage/
 htmlcov/
-
-# Temporary files
-*.tmp
-*.temp
-```
+*.coverage
+.DS_Store
+Thumbs.db
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
